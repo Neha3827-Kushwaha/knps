@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Services - Kanpur Softwares</title>
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <!-- Bootstrap Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+  />
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <div class="d-flex align-items-center">
+          <div
+            class="bg-primary rounded-circle d-flex align-items-center justify-content-center"
+            style="width: 40px; height: 40px;"
+          >
+            <i class="bi bi-code-slash text-white fs-5"></i>
+          </div>
+          <span class="ms-2 fw-bold text-primary">Kanpur Softwares</span>
+        </div>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse"
+        id="navbarNav"
+      >
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <div class="d-flex ms-lg-3">
+          <a href="contact.html" class="btn btn-primary rounded-pill px-4"
+            >Get a Quote</a
+          >
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header text-white py-5 mb-5">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1 class="fw-bold mb-3">Our Services</h1>
+          <p class="lead mb-0">
+            Discover the range of solutions we offer to help businesses excel
+            in the digital age.
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Service 1: Web Development -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="card-body p-4">
+              <div
+                class="bg-primary bg-opacity-10 rounded-4 p-3 d-inline-block mb-3"
+              >
+                <i class="bi bi-globe text-primary fs-3"></i>
+              </div>
+              <h5 class="card-title mb-2">Web Development</h5>
+              <p class="card-text">
+                Build dynamic, responsive, and scalable websites using modern
+                frameworks and best practices.
+              </p>
+              </div>
+            <div class="card-footer bg-transparent border-0 pb-4">
+              <button
+                class="btn btn-sm btn-outline-primary rounded-pill"
+                data-bs-toggle="modal"
+                data-bs-target="#webDevModal"
+              >
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 2: Mobile App Development -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="card-body p-4">
+              <div
+                class="bg-primary bg-opacity-10 rounded-4 p-3 d-inline-block mb-3"
+              >
+                <i class="bi bi-phone text-primary fs-3"></i>
+              </div>
+              <h5 class="card-title mb-2">Mobile App Development</h5>
+              <p class="card-text">
+                Create engaging iOS and Android apps with seamless user
+                experiences and robust performance.
+              </p>
+            </div>
+            
+            <div class="card-footer bg-transparent border-0 pb-4">
+              <button
+                class="btn btn-sm btn-outline-primary rounded-pill"
+                data-bs-toggle="modal"
+                data-bs-target="#mobileAppModal"
+              >
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 3: Custom Software -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="card-body p-4">
+              <div
+                class="bg-primary bg-opacity-10 rounded-4 p-3 d-inline-block mb-3"
+              >
+                <i class="bi bi-gear-wide-connected text-primary fs-3"></i>
+              </div>
+              <h5 class="card-title mb-2">Custom Software</h5>
+              <p class="card-text">
+                Tailor-made software solutions to automate business processes
+                and enhance productivity.
+              </p>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-4">
+              <button
+                class="btn btn-sm btn-outline-primary rounded-pill"
+                data-bs-toggle="modal"
+                data-bs-target="#customSoftwareModal"
+              >
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 4: UI/UX Design -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="card-body p-4">
+              <div
+                class="bg-primary bg-opacity-10 rounded-4 p-3 d-inline-block mb-3"
+              >
+                <i class="bi bi-brush text-primary fs-3"></i>
+              </div>
+              <h5 class="card-title mb-2">UI/UX Design</h5>
+              <p class="card-text">
+                Craft intuitive and visually appealing user interfaces that
+                elevate customer engagement.
+              </p>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-4">
+              <button
+                class="btn btn-sm btn-outline-primary rounded-pill"
+                data-bs-toggle="modal"
+                data-bs-target="#uiuxModal"
+              >
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 5: Cloud Solutions -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="card-body p-4">
+              <div
+                class="bg-primary bg-opacity-10 rounded-4 p-3 d-inline-block mb-3"
+              >
+                <i class="bi bi-cloud-check text-primary fs-3"></i>
+              </div>
+              <h5 class="card-title mb-2">Cloud Solutions</h5>
+              <p class="card-text">
+                Leverage secure, scalable cloud services for storage,
+                deployment, and business continuity.
+              </p>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-4">
+              <button
+                class="btn btn-sm btn-outline-primary rounded-pill"
+                data-bs-toggle="modal"
+                data-bs-target="#cloudSolutionsModal"
+              >
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modals Section (Detailed Info for Each Service) -->
+  <!-- Web Development Modal -->
+  <div
+    class="modal fade"
+    id="webDevModal"
+    tabindex="-1"
+    aria-labelledby="webDevModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="webDevModalLabel">Web Development</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <div class="row mb-4">
+            <div class="col-md-6 mb-4 mb-md-0">
+              <div
+                class="bg-primary bg-opacity-10 rounded-4 p-5 d-flex align-items-center justify-content-center"
+                style="height: 300px;"
+              >
+                <i class="bi bi-globe text-primary" style="font-size: 4rem;"></i>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h5 class="mb-3">Service Overview</h5>
+              <p>
+                We create high-performing websites that drive conversions,
+                enhance user experience, and look great on every device.
+              </p>
+              <div class="mb-3">
+                <strong>Technologies:</strong> HTML5, CSS3, JavaScript,
+                React.js, Node.js, etc.
+              </div>
+              <div class="mb-3">
+                <strong>Use Cases:</strong> E-commerce, Corporate Websites,
+                Blogs, Portals
+              </div>
+              <div class="mb-3">
+                <strong>Approach:</strong> Responsive design, SEO optimization,
+                performance-driven development
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <h5 class="mb-3">Detailed Benefits</h5>
+              <p>
+                Our team is well-versed in the latest frameworks and
+                technologies, ensuring your website stays future-proof. We
+                prioritize:
+              </p>
+              <ul>
+                <li>Cross-browser compatibility and responsiveness</li>
+                <li>SEO best practices for higher search engine ranking</li>
+                <li>Security measures to protect user data</li>
+                <li>
+                  Seamless content management via popular CMS platforms
+                </li>
+                <li>
+                  Custom integrations (payment gateways, third-party APIs)
+                </li>
+              </ul>
+              <p>
+                From landing pages to complex portals, our web development
+                solutions help businesses scale effectively.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-secondary rounded-pill"
+            data-bs-dismiss="modal"
+          >
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile App Development Modal -->
+  <div
+    class="modal fade"
+    id="mobileAppModal"
+    tabindex="-1"
+    aria-labelledby="mobileAppModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="mobileAppModalLabel">
+            Mobile App Development
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <div class="row mb-4">
+            <div class="col-md-6 mb-4 mb-md-0">
+              <div
+                class="bg-primary bg-opacity-10 rounded-4 p-5 d-flex align-items-center justify-content-center"
+                style="height: 300px;"
+              >
+                <i
+                  class="bi bi-phone text-primary"
+                  style="font-size: 4rem;"
+                ></i>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h5 class="mb-3">Service Overview</h5>
+              <p>
+                Develop high-quality mobile applications for iOS and Android
+                platforms with intuitive interfaces and robust performance.
+              </p>
+              <div class="mb-3">
+                <strong>Technologies:</strong> Swift, Kotlin, Flutter,
+                React Native
+              </div>
+              <div class="mb-3">
+                <strong>Use Cases:</strong> eCommerce, Social Media, Healthcare,
+                On-Demand Services
+              </div>
+              <div class="mb-3">
+                <strong>Key Focus:</strong> UI/UX design, Performance,
+                Scalability
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <h5 class="mb-3">Detailed Benefits</h5>
+              <ul>
+                <li>
+                  Flexible and scalable architecture to accommodate growing
+                  user bases
+                </li>
+                <li>Optimized for speed and reliability</li>
+                <li>
+                  Seamless integration with back-end APIs and third-party
+                  services
+                </li>
+                <li>
+                  Regular updates and maintenance to keep apps compatible
+                  with OS upgrades
+                </li>
+                <li>
+                  User-friendly designs that enhance customer engagement and
+                  retention
+                </li>
+              </ul>
+              <p>
+                Whether you need a native or cross-platform solution, our
+                experts ensure top-tier performance and a delightful user
+                experience.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-secondary rounded-pill"
+            data-bs-dismiss="modal"
+          >
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom Software Modal -->
+  <div
+    class="modal fade"
+    id="customSoftwareModal"
+    tabindex="-1"
+    aria-labelledby="customSoftwareModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="customSoftwareModalLabel">
+            Custom Software
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <div class="row mb-4">
+            <div class="col-md-6 mb-4 mb-md-0">
+              <div
+                class="bg-primary bg-opacity-10 rounded-4 p-5 d-flex align-items-center justify-content-center"
+                style="height: 300px;"
+              >
+                <i
+                  class="bi bi-gear-wide-connected text-primary"
+                  style="font-size: 4rem;"
+                ></i>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h5 class="mb-3">Service Overview</h5>
+              <p>
+                Build tailor-made solutions that address specific business
+                challenges and improve operational efficiency.
+              </p>
+              <div class="mb-3">
+                <strong>Technologies:</strong> .NET, Java, Python, Node.js,
+                and more
+              </div>
+              <div class="mb-3">
+                <strong>Use Cases:</strong> ERP Systems, CRM Solutions,
+                Custom Dashboards, Inventory Management
+              </div>
+              <div class="mb-3">
+                <strong>Approach:</strong> Agile development, detailed needs
+                assessment, robust testing
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <h5 class="mb-3">Detailed Benefits</h5>
+              <ul>
+                <li>
+                  Comprehensive analysis of your processes to build a
+                  solution that truly meets your needs
+                </li>
+                <li>
+                  Scalable architecture that grows with your organization
+                </li>
+                <li>
+                  Modular design for easier maintenance and feature updates
+                </li>
+                <li>
+                  High level of security and data protection measures
+                </li>
+                <li>Integration with existing systems and databases</li>
+              </ul>
+              <p>
+                Get a custom-built software platform that eliminates
+                inefficiencies and supports your strategic goals.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-secondary rounded-pill"
+            data-bs-dismiss="modal"
+          >
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- UI/UX Design Modal -->
+  <div
+    class="modal fade"
+    id="uiuxModal"
+    tabindex="-1"
+    aria-labelledby="uiuxModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="uiuxModalLabel">UI/UX Design</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <div class="row mb-4">
+            <div class="col-md-6 mb-4 mb-md-0">
+              <div
+                class="bg-primary bg-opacity-10 rounded-4 p-5 d-flex align-items-center justify-content-center"
+                style="height: 300px;"
+              >
+                <i class="bi bi-brush text-primary" style="font-size: 4rem;"></i>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h5 class="mb-3">Service Overview</h5>
+              <p>
+                Design beautiful interfaces and engaging user experiences
+                across websites, mobile apps, and other digital products.
+              </p>
+              <div class="mb-3">
+                <strong>Tools:</strong> Figma, Sketch, Adobe XD, InVision
+              </div>
+              <div class="mb-3">
+                <strong>Use Cases:</strong> Website Design, Mobile Apps,
+                Brand Refresh, Prototyping
+              </div>
+              <div class="mb-3">
+                <strong>Key Focus:</strong> User-centered design, seamless
+                navigation, brand consistency
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <h5 class="mb-3">Detailed Benefits</h5>
+              <ul>
+                <li>Wireframing and prototyping to visualize ideas early</li>
+                <li>User research and usability testing</li>
+                <li>
+                  Accessibility standards compliance for all audiences
+                </li>
+                <li>
+                  Consistent design language for cohesive brand identity
+                </li>
+                <li>
+                  Collaborative process ensuring client feedback at every
+                  stage
+                </li>
+              </ul>
+              <p>
+                Let our creative team transform your vision into a compelling
+                digital product that delights users and meets business goals.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-secondary rounded-pill"
+            data-bs-dismiss="modal"
+          >
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cloud Solutions Modal -->
+  <div
+    class="modal fade"
+    id="cloudSolutionsModal"
+    tabindex="-1"
+    aria-labelledby="cloudSolutionsModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="cloudSolutionsModalLabel">
+            Cloud Solutions
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <div class="row mb-4">
+            <div class="col-md-6 mb-4 mb-md-0">
+              <div
+                class="bg-primary bg-opacity-10 rounded-4 p-5 d-flex align-items-center justify-content-center"
+                style="height: 300px;"
+              >
+                <i
+                  class="bi bi-cloud-check text-primary"
+                  style="font-size: 4rem;"
+                ></i>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h5 class="mb-3">Service Overview</h5>
+              <p>
+                Harness the power of the cloud to reduce costs, improve
+                scalability, and enhance security for your business
+                operations.
+              </p>
+              <div class="mb-3">
+                <strong>Platforms:</strong> AWS, Azure, Google Cloud
+              </div>
+              <div class="mb-3">
+                <strong>Use Cases:</strong> Cloud Migration, DevOps, Data
+                Storage, Disaster Recovery
+              </div>
+              <div class="mb-3">
+                <strong>Approach:</strong> Architecture assessment, seamless
+                migration, ongoing monitoring
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <h5 class="mb-3">Detailed Benefits</h5>
+              <ul>
+                <li>Pay-as-you-go model to optimize costs</li>
+                <li>High availability and automatic failover</li>
+                <li>Secure environments with encryption and access control</li>
+                <li>Robust backup and recovery strategies</li>
+                <li>Automated deployments and continuous integration</li>
+              </ul>
+              <p>
+                Modernize your IT infrastructure and stay ahead of the curve
+                with our end-to-end cloud services.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-secondary rounded-pill"
+            data-bs-dismiss="modal"
+          >
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Section -->
+  <section class="py-5 bg-primary text-white" id="contact-cta">
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="fw-bold mb-4">Ready to Start Your Project?</h2>
+          <p class="lead mb-4">
+            Contact us today to discuss your project requirements and get a
+            free consultation.
+          </p>
+          <a
+            href="contact.html"
+            class="btn btn-light btn-lg rounded-pill px-5"
+            >Contact Us</a
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <div class="d-flex align-items-center mb-4">
+            <div
+              class="bg-primary rounded-circle d-flex align-items-center justify-content-center"
+              style="width: 40px; height: 40px;"
+            >
+              <i class="bi bi-code-slash text-white fs-5"></i>
+            </div>
+            <span class="ms-2 fw-bold text-white fs-4"
+              >Kanpur Softwares</span
+            >
+          </div>
+          <p>
+            Kanpur Softwares is a leading software development company
+            providing innovative solutions to businesses worldwide.
+          </p>
+          <div class="d-flex gap-3 mt-4">
+            <a href="#" class="footer-icon"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="footer-icon"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="footer-icon"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="footer-icon"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <h5 class="mb-4">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="index.html" class="text-white text-decoration-none"
+                >Home</a
+              >
+            </li>
+            <li class="mb-2">
+              <a href="about.html" class="text-white text-decoration-none"
+                >About Us</a
+              >
+            </li>
+            <li class="mb-2">
+              <a href="services.html" class="text-white text-decoration-none"
+                >Services</a
+              >
+            </li>
+            <li class="mb-2">
+              <a href="portfolio.html" class="text-white text-decoration-none"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mb-2">
+              <a href="contact.html" class="text-white text-decoration-none"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <h5 class="mb-4">Services</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="services.html" class="text-white text-decoration-none"
+                >Web Development</a
+              >
+            </li>
+            <li class="mb-2">
+              <a href="services.html" class="text-white text-decoration-none"
+                >Mobile App Development</a
+              >
+            </li>
+            <li class="mb-2">
+              <a href="services.html" class="text-white text-decoration-none"
+                >Custom Software</a
+              >
+            </li>
+            <li class="mb-2">
+              <a href="services.html" class="text-white text-decoration-none"
+                >UI/UX Design</a
+              >
+            </li>
+            <li class="mb-2">
+              <a href="services.html" class="text-white text-decoration-none"
+                >Cloud Solutions</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-lg-4">
+          <h5 class="mb-4">Contact Us</h5>
+          <ul class="list-unstyled">
+            <li class="mb-3 d-flex">
+              <i class="bi bi-geo-alt-fill me-2 text-primary"></i>
+              <span
+                >123 Tech Park, Civil Lines, Kanpur, Uttar Pradesh,
+                India</span
+              >
+            </li>
+            <li class="mb-3 d-flex">
+              <i class="bi bi-envelope-fill me-2 text-primary"></i>
+              <a
+                href="mailto:info@kanpursoftwares.in"
+                class="text-white text-decoration-none"
+                >info@kanpursoftwares.in</a
+              >
+            </li>
+            <li class="mb-3 d-flex">
+              <i class="bi bi-telephone-fill me-2 text-primary"></i>
+              <a
+                href="tel:+919876543210"
+                class="text-white text-decoration-none"
+                >+91 9876543210</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr class="my-4 bg-light" />
+      <div class="row">
+        <div class="col-md-6 mb-3 mb-md-0">
+          <p class="mb-0">
+            &copy; 2025 Kanpur Softwares. All rights reserved.
+          </p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <a href="#" class="text-white text-decoration-none me-3"
+            >Privacy Policy</a
+          >
+          <a href="#" class="text-white text-decoration-none"
+            >Terms of Service</a
+          >
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a
+    href="#"
+    class="back-to-top d-flex align-items-center justify-content-center"
+    ><i class="bi bi-arrow-up-short"></i
+  ></a>
+
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  ></script>
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
